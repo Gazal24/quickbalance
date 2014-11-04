@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Penny</string>
+    <string name="title">Voila</string>
+    <string name="message">Set your USSD code for balance. Clean data to reset this in future.</string>
+    <string name="ok">Set and Go</string>
+    <string name="cancel">Bye</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
