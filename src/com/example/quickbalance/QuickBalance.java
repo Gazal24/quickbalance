@@ -43,9 +43,7 @@ public class QuickBalance extends Activity{
 
 			getCode.show();
 		} else {
-			Toast t = Toast.makeText(getApplicationContext(), Uri.encode(code), Toast.LENGTH_SHORT);
-			t.show();
-			code = "tel:" + code.replaceAll("#", "") + "%23";
+			code = "tel:" + Uri.encode(code);
 			Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(code));
 	        startActivity(intent);
 	        finish();
